@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
 .item{
     text-decoration: none;
@@ -27,35 +28,42 @@
     background-color: brown;
 }
 .item:visited{
-    color:red;
+    color:red;    
 }
 .item:link{
     color:orange;
 }
-.paragraph1 {
+.paragraph1, .paragraph2 {
     font-family: cursive;
     font-size: 20px;
     text-align: justify;
     margin-left: 100px;
     margin-right: 100px;    
 }
-.paragraph2 {
-    font-family: cursive;
-    font-size: 20px;
-    text-align: justify;
-    margin-left: 100px;
-    margin-right: 100px;    
-}
+
 .paragraph1:hover {
     background-color: blue;
 }
 .paragraph2:hover{
     background-color: yellow;
 }
+.par1{
+    font-family: fantasy; 
+    text-decoration-line: underLine;    
+}
+.par2{
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-weight: bold;
+}
+.par3{
+    font-style:oblique;
+}
 .image{
     text-align:center; 
     margin:30px 80px;
-    background-image: url(img3.jpg);   
+    background-image: url(img3.jpg); 
+    background-size:cover;  
 }
 .img2{
     display: none;
