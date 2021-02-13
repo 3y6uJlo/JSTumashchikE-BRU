@@ -1,0 +1,84 @@
+.container{
+    margin: 10px;
+    display: flex;
+    height: 100px;
+    /* background-color: green; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item{
+    text-decoration: none;
+    font-size: large;
+    font-style: italic;
+    width: 250px;    
+    margin: 20px;  
+    height: 50px;     
+    justify-content: center;    
+    display: flex; 
+    align-items: center;    
+    background-color: grey; 
+
+    border: 2px solid black;
+    border-style:dotted;    
+    border-radius: 60px/20px;
+}
+.item:hover{
+    background-color: brown;
+}
+.item:visited{
+    color:red;    
+}
+.item:link{
+    color:orange;
+}
+.paragraph1, .paragraph2 {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;    
+}
+
+.paragraph1:hover {
+    background-color: blue;
+}
+.paragraph2:hover{
+    background-color: yellow;
+}
+.par1{
+    font-family: fantasy; 
+    text-decoration-line: underLine;    
+}
+.par2{
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-weight: bold;
+}
+.par3{
+    font-style:oblique;
+}
+.image{
+    text-align:center; 
+    margin:30px 80px;
+    background-image: url(img3.jpg); 
+    background-size:cover;  
+}
+.img2{
+    display: none;
+}
+.image:hover .img2{
+    display: inline;    
+}
+.image:hover .img1{
+    display: none;
+}
+.link{
+    font-size: 10px;
+    text-align: right;
+    margin-right: 30px;
+}
+.List{
+    font-size: 24px;
+}
