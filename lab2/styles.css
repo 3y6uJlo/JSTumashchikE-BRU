@@ -7,6 +7,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: #71bc42;
 }
 .mainContainer{                
     margin-left: auto;
@@ -137,6 +138,7 @@ span{
     justify-content: space-between;    
     margin-left: 40px;
     margin-right: 40px;
+    margin-bottom: 50px;
 }
 .imageWithText{
     width:fit-content;
@@ -148,4 +150,111 @@ h2{
     line-height: 1.2;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
+}
+.changeBackground:hover{
+    background-color: #60a038;
+}
+.dots{
+    display: flex;    
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 224px;
+}
+.dot{
+    color: #71bc42;
+    margin: 5px;
+}
+.bigNumbers{
+    font-size: 4rem;
+    color: #71bc42;
+    font-family: 'Oswald', arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.roundedImage{
+    border-radius: 50%;
+    width: 70px;
+    margin-bottom: 24px;
+}
+.blockquote{
+    font-size: 1.6em;
+    font-style: italic;
+    margin-bottom: 1.5em;
+}
+.colorLightGreen{
+    color: #71bc42;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 110px;
+    padding: 48px 0px;
+    background-color: #71bc42;   
+}
+.footer1Button{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid white;    
+    color:white;
+}
+.footer1Button:hover{
+    background-color: white;
+    color:#71bc42;
+}
+.lowerFooter{
+    padding: 64px 50px;
+    background-color: #343a40;
+}
+.footer2{
+    display: flex;        
+}
+.footer2Item1{    
+    /* width: 550px; */
+    flex-grow: 3;
+}
+.footer2Item2{
+    /* width: 550px; */
+    margin-left: auto;
+    flex-grow: 4;
+    display: flex;
+}
+.footer2Item3{
+    flex-grow: 2;
+}
+.footerHeader{
+    Color:white;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch:extra-condensed;
+    margin-bottom: 1.5rem;
+} 
+.footerTextColor{
+    color: rgba(255, 255, 255, 0.5);
+}
+.footerLinkColor{
+    color: rgba(255, 255, 255, 0.3);
+}
+.footerLinkColor:hover{
+    color: white;
+}
+.footerLinkIconColor{
+    color: rgba(255, 255, 255, 0.5);
+}
+.footerLinkIconColor:hover{
+    color: white;
+}
+.footerSocialIcons{
+    display:flex;    
+    justify-items: center;    
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+}
+.finalDescription{
+    margin-top: 200px;
+    text-align: center;
 }
