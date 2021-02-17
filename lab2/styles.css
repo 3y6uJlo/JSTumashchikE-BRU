@@ -266,11 +266,12 @@ h2{
     background-color: #343a40;
 }
 .footer2{
-    display: flex;        
+    display: flex;     
 }
 .footer2Item1{    
-    /* width: 550px; */
     flex-grow: 3;
+    max-width: 33%;
+    padding-right: 100px;
 }
 .footer2Item2{
     /* width: 550px; */
@@ -312,6 +313,28 @@ ul{
 }
 li{
     margin-bottom: 10px;
+}
+.subscribeButton{
+    height: 60px;
+    margin: 0;
+    margin-left: -1px;
+    border: 2px solid #71bc42;
+    font-size: 16px;
+    font-weight: 600;
+}
+.subscribeText{
+    height: 46px;
+    border: 1px solid white;
+    background-color: #343a40;
+    color: white;
+    padding: 6px 15px;
+    font-style: italic;
+    font-size: 16px;;
+    font-weight: 700;
+}
+.subscribeText:focus{
+    border: 1px solid #71bc42;
+    outline: 0px;
 }
 .finalDescription{
     margin-top: 200px;
