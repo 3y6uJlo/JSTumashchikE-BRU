@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(224, 224, 224, 0.5);
+}
+a{
+    text-decoration: none;
+    color: #71bc42;
+}
+.mainContainer{                
+    margin-left: auto;
+    margin-right: auto;       
+    background-color: white;
+    width: 1200px;
+}
+.headerMenu{
+    display: flex;
+}
+.container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.item
+{    
+    margin: 20px 50px;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Oswald", arial, sans-serif;        
+}
+.itemRight{
+    text-transform: uppercase;
+    padding: 10px;
+    /* margin: 10px; */
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.link1{
+    color: rgba(0,0,0,0.6);
+}
+.link1:hover{
+    color: black;
+}
+.link2{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: #71bc42;
+    /* z-index: 999;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+.fa-sort-up:before{
+    content: "\f0de";
+    max-height: 8px;
+}
+.dropdownList{
+    visibility: hidden;
+}
+.dropdownMenu:hover > .dropdownList{
+    visibility: visible;
+}
+.dropdownItem:hover > .dropdownItem2{
+    visibility: visible;
+}
+.dropdownUl{
+    background-color: black;
+    margin: 0px;
+    padding: 15px 0px;
+    min-width: 200px;
+    border-radius: 7px;
+    top: 100%;
+}
+.dropdownUl > li {
+    margin: 0;
+}
+.dropdownUl > li > a {
+    padding: 5px 20px;
+    display: block;    
+}
+.dropdownItem1{    
+    position:absolute;
+    padding-top: 15px;
+    height: 280px;
+    z-index: 999;
+} 
+.dropdownItem2{
+    visibility: hidden;
+    position: absolute;
+    left: 100%;
+    top: 130px;
+}
+.listedItems{
+    color: white;
+}
+.listedItems:hover{
+    color: #71bc42;
+}
+.imageContainer{
+    min-width: 1200px;
+    min-height: 600px;
+    display: flex;
+    margin-bottom: 70px;   
+    background-color: rgba(0,0,0,0.2);
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+.image{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1200px;
+    min-height: 600px;
+    background-color: rgba(0,0, 0, 0.2);
+}
+.imageText{
+    text-align: center;
+    color: white;    
+    font-size: 60px;
+    font-weight: 700;    
+}
+.arrow{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+}
+.arrow:hover{
+    background-color: black;
+}
+.upper{
+    text-transform: uppercase;
+}
+.font2{
+    font-family: "Oswald", arial, sans-serif;
+}
+.caption1{
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 10px;
+}
+.caption2{
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: extra-condensed; 
+    margin-bottom: 10px;   
+}
+hr{    
+    color: #71bc42;
+    border: 2px solid #71bc42;
+    width: 40px;    
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 120px;
+}
+i{
+    size: 9ex;
+}
+.itemIcon{
+    padding-left: 15px;
+    padding-right: 15px;;
+    text-align: center;    
+}
+.iconColorAndMargin{
+    color: #71bc42;
+    margin-bottom: 15px ;
+}
+.font3{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.iconItemBorder{
+    border-right: 1px solid #dee2e6;
+}
+p{
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+span{
+    display:inline-block;
+}
+.font4{
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    font-size: 1rem;
+    letter-spacing: .05em;
+}
+.container3{
+    display: flex; 
+    max-height: 500px;  
+}
+.imgLegend{
+    text-align: left;
+    padding: 60px 50px 0px 90px;    
+}
+.textAlignCenter{
+    text-align: center;
+}
+.imageWithTextContainer{
+    display: flex;
+    justify-content: space-between;    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+.arrowContainer{
+    display: flex;
+    position:absolute;
+    justify-content: space-between; 
+    align-items: center;
+    width: 1160px;
+    height: 520px;
+    margin: 20px;    
+}
+.arrow2{   
+    display:flex;
+    justify-content: center ;
+    align-items: center;        
+    min-width: 40px;
+    min-height: 60px;
+    background-color:white;
+    color: black;
+    
+}
+.arrow2:hover{
+    color:white;
+    background-color: #71bc42;
+}
+.imageWithText{
+    width:fit-content;
+    box-sizing: content-box;
+    max-width: 100%;
+}
+h2{
+    font-family: 'Oswald', sans-serif, arial;
+    line-height: 1.2;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.arrowContainer2{
+    height: 300px;
+}
+.changeBackground:hover{
+    background-color: #60a038;
+}
+.dots{
+    display: flex;    
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 224px;
+}
+.dot{
+    color: #71bc42;
+    margin: 5px;
+}
+.bigNumbers{
+    font-size: 4rem;
+    color: #71bc42;
+    font-family: 'Oswald', arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.roundedImage{
+    border-radius: 50%;
+    width: 70px;
+    margin-bottom: 24px;
+}
+.blockquote{
+    font-size: 1.6em;
+    font-style: italic;
+    margin-bottom: 1.5em;
+}
+.colorLightGreen{
+    color: #71bc42;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 110px;
+    padding: 48px 0px;
+    background-color: #71bc42;   
+}
+.footer1Button{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid white;    
+    color:white;
+}
+.footer1Button:hover{
+    background-color: white;
+    color:#71bc42;
+}
+.lowerFooter{
+    padding: 64px 50px;
+    background-color: #343a40;
+}
+.footer2{
+    display: flex;     
+}
+.footer2Item1{    
+    flex-grow: 3;
+    max-width: 33%;
+    padding-right: 100px;
+}
+.footer2Item2{
+    /* width: 550px; */
+    margin-left: auto;
+    flex-grow: 4;
+    display: flex;
+}
+.footer2Item3{
+    flex-grow: 2;
+}
+.footerHeader{
+    Color:white;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch:extra-condensed;
+    margin-bottom: 1.5rem;
+} 
+.footerTextColor{
+    color: rgba(255, 255, 255, 0.5);
+}
+.footerLinkColor{
+    color: rgba(255, 255, 255, 0.3);
+}
+.footerLinkColor:hover{
+    color: white;
+}
+.footerLinkIconColor{
+    color: rgba(255, 255, 255, 0.5);
+}
+.footerLinkIconColor:hover{
+    color: white;
+}
+.footerSocialIcons{
+    display:flex;    
+    justify-items: center;    
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+}
+.subscribeButton{
+    height: 60px;
+    margin: 0;
+    margin-left: -1px;
+    border: 2px solid #71bc42;
+    font-size: 16px;
+    font-weight: 600;
+}
+.subscribeText{
+    height: 46px;
+    border: 1px solid white;
+    background-color: #343a40;
+    color: white;
+    padding: 6px 15px;
+    font-style: italic;
+    font-size: 16px;;
+    font-weight: 700;
+}
+.subscribeText:focus{
+    border: 1px solid #71bc42;
+    outline: 0px;
+}
+.finalDescription{
+    margin-top: 200px;
+    text-align: center;
+}
