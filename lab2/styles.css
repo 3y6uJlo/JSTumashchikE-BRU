@@ -50,6 +50,7 @@ a{
     width: 150px;
     color: white;
     background-color: #71bc42;
+    /* z-index: 999;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }
 .fa-sort-up:before{
     content: "\f0de";
@@ -97,8 +98,29 @@ a{
 .listedItems:hover{
     color: #71bc42;
 }
+.imageContainer{
+    min-width: 1200px;
+    min-height: 600px;
+    display: flex;
+    margin-bottom: 70px;   
+    background-color: rgba(0,0,0,0.2);
+    background-image: url("1.jpg");
+    background-size: cover;
+}
 .image{
-    width: fit-content;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1200px;
+    min-height: 600px;
+    background-color: rgba(0,0, 0, 0.2);
+}
+.imageText{
+    text-align: center;
+    color: white;    
+    font-size: 60px;
+    font-weight: 700;    
 }
 .arrow{
     display: flex;    
@@ -133,9 +155,9 @@ a{
     margin-bottom: 10px;   
 }
 hr{    
-    border-width: 4px solid;
-    width: 40px;
-    border-color: #71bc42;
+    color: #71bc42;
+    border: 2px solid #71bc42;
+    width: 40px;    
     margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
@@ -199,6 +221,29 @@ span{
     margin-right: 40px;
     margin-bottom: 50px;
 }
+.arrowContainer{
+    display: flex;
+    position:absolute;
+    justify-content: space-between; 
+    align-items: center;
+    width: 1160px;
+    height: 520px;
+    margin: 20px;    
+}
+.arrow2{   
+    display:flex;
+    justify-content: center ;
+    align-items: center;        
+    min-width: 40px;
+    min-height: 60px;
+    background-color:white;
+    color: black;
+    
+}
+.arrow2:hover{
+    color:white;
+    background-color: #71bc42;
+}
 .imageWithText{
     width:fit-content;
     box-sizing: content-box;
@@ -209,6 +254,9 @@ h2{
     line-height: 1.2;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
+}
+.arrowContainer2{
+    height: 300px;
 }
 .changeBackground:hover{
     background-color: #60a038;
