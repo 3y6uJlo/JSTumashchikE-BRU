@@ -255,12 +255,14 @@ input::placeholder{
     color: white;
     font-size: 1.5em;
     font-weight: 300;
+    padding-left: 5px;
 }
 textarea::placeholder{
     font-family: Source Sans Pro;
     color: white;
     font-size: 1.5em;
     font-weight: 300;
+    padding-left: 5px;
 }
 .input-box1{
     border: none;

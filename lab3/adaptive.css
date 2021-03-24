@@ -1,0 +1,80 @@
+@media screen and (max-width:576px) {
+    body{
+        font-size:small;
+    }
+    .image-Container-1{
+        width: 100%;
+        height: 80vh;
+    }
+    .width-50{
+        width:100%;
+    }
+    .width-25{
+        width:50%;
+    }
+    .header-block{
+        margin-bottom: 2em;
+    }
+    .getStarted-button{
+        margin-bottom: 3em;
+    }
+    .height-1{
+        height: 600px;
+    }
+    .height-2{
+        height: 450px;
+    }
+    .height-3{
+        height: 900px;
+    }
+    .width-50 > .width-50{
+        width: 50%;
+    }
+    .image-Container-2{
+        height: 450px;        
+    }
+    .height-adaptive-1{
+        height: 350px;
+    }
+    .height-adaptive-2{
+        height:400px;
+    }
+    .text-container3{
+        margin: 2em;
+    }
+    .font-size-adaptive{
+        font-size:small;
+    }
+    .input-box1{
+        margin-top: 0;
+    }
+    .inputbox-margin{
+        margin-bottom: 2em;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    body{
+        font-size:smaller;
+    }
+    .text-container3{
+        margin: 2em;
+    }
+    .text-container{
+        margin: 1em;
+    }
+    .site-Block-3{
+        margin: 0 2em;
+    }
+    .icon-margin-1{
+        margin: 0.5em 0 0.25em;
+    }
+    .height-adaptive-3{
+        height: 475px;
+    }
+    .icon-with-text-container > .icon-margin-2{
+        margin-right: 0.2em;
+    }
+}
+@media screen and (min-width: 769px) {
+
+}
