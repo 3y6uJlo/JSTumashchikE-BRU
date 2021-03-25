@@ -1,6 +1,6 @@
 @media screen and (max-width:576px) {
     body{
-        font-size:small;
+        font-size:x-small;
     }
     .image-Container-1{
         width: 100%;
@@ -10,7 +10,7 @@
         width:100%;
     }
     .width-25{
-        width:50%;
+        width:100%;
     }
     .header-block{
         margin-bottom: 2em;
@@ -19,16 +19,18 @@
         margin-bottom: 3em;
     }
     .height-1{
-        height: 600px;
+        max-height: 1000px;
+        height: auto;
     }
     .height-2{
-        height: 450px;
+        max-height: 450px;
+        height: auto;
     }
     .height-3{
         height: 900px;
     }
     .width-50 > .width-50{
-        width: 50%;
+        width: 100%;
     }
     .image-Container-2{
         height: 450px;        
@@ -50,6 +52,18 @@
     }
     .inputbox-margin{
         margin-bottom: 2em;
+    }
+    .text-container > i{
+        margin: 0;
+    }
+    .button2{
+        padding: 10px 30%;
+    }
+    .image-inscription{
+        padding: 2em 0 1em;
+    }
+    .image-Container-5{
+        font-size:x-small;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 768px){
@@ -75,6 +89,18 @@
         margin-right: 0.2em;
     }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    body{
+        font-size:smaller;
+    }
+    .text-container3{
+        margin: 2em;
+    }
+    /* .height-adaptive-3{
+        height: 500px;
+    } */
+}
+
+@media screen and (min-width: 1200px){
 
 }
